@@ -28,7 +28,7 @@
     "axios": "^1.7.2",
     "concurrently": "^9.0.1",
     "cross-env": "^7.0.3",
-    "cross-spawn": "^7.0.3",
+    "cross-spawn": "^7.0.6",
     "csv-parser": "^3.0.0",
     "electron": "^33.0.1",
     "electron-builder": "^25.1.8",
