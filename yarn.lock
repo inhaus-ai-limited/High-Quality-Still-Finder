@@ -5467,6 +5467,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-spawn@npm:^7.0.6":
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
+  dependencies:
+    path-key: "npm:^3.1.0"
+    shebang-command: "npm:^2.0.0"
+    which: "npm:^2.0.1"
+  checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
+  languageName: node
+  linkType: hard
+
 "crossws@npm:>=0.2.0 <0.4.0":
   version: 0.3.1
   resolution: "crossws@npm:0.3.1"
@@ -8457,7 +8468,7 @@ __metadata:
     axios: "npm:^1.7.2"
     concurrently: "npm:^9.0.1"
     cross-env: "npm:^7.0.3"
-    cross-spawn: "npm:^7.0.3"
+    cross-spawn: "npm:^7.0.6"
     csv-parser: "npm:^3.0.0"
     electron: "npm:^33.0.1"
     electron-builder: "npm:^25.1.8"
