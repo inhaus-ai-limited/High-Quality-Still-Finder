@@ -5467,6 +5467,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-spawn@npm:^7.0.6":
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
+  dependencies:
+    path-key: "npm:^3.1.0"
+    shebang-command: "npm:^2.0.0"
+    which: "npm:^2.0.1"
+  checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
+  languageName: node
+  linkType: hard
+
 "crossws@npm:>=0.2.0 <0.4.0":
   version: 0.3.1
   resolution: "crossws@npm:0.3.1"
@@ -8480,7 +8491,7 @@ __metadata:
     sass-loader: "npm:^16.0.2"
     stylelint: "npm:16.10.0"
     terser: "npm:^5.36.0"
-    tsc-watch: "npm:^6.2.0"
+    tsc-watch: "npm:^7.2.1"
     typescript: "npm:^5.6.3"
     wait-on: "npm:^9.5.1"
     webpack: "npm:5.95.0"
@@ -13504,7 +13515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-argv@npm:^0.3.1":
+"string-argv@npm:^0.3.2":
   version: 0.3.2
   resolution: "string-argv@npm:0.3.2"
   checksum: 10c0/75c02a83759ad1722e040b86823909d9a2fc75d15dd71ec4b537c3560746e33b5f5a07f7332d1e3f88319909f82190843aa2f0a0d8c8d591ec08e93d5b8dec82
@@ -14238,19 +14249,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsc-watch@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "tsc-watch@npm:6.2.0"
+"tsc-watch@npm:^7.2.1":
+  version: 7.2.1
+  resolution: "tsc-watch@npm:7.2.1"
   dependencies:
-    cross-spawn: "npm:^7.0.3"
+    cross-spawn: "npm:^7.0.6"
     node-cleanup: "npm:^2.1.2"
     ps-tree: "npm:^1.2.0"
-    string-argv: "npm:^0.3.1"
+    string-argv: "npm:^0.3.2"
   peerDependencies:
     typescript: "*"
   bin:
     tsc-watch: dist/lib/tsc-watch.js
-  checksum: 10c0/689a868198c207619bb197d54e3123567c011dca06596c0c9ed4e6dc0d0820ae45d8c7d15c9cef45521673016cf340dceb5ac318436db44018fb87880d8e1ffe
+  checksum: 10c0/cac0c9f9be39ed429f2d7665f772a83d30c47437a0d9bcc01a250125a18b5e0c64a3bc36fb014051388227faa84ffc6c4769cd04356a2fd1304c0ef59e99f377
   languageName: node
   linkType: hard
 
