@@ -1,22 +1,9 @@
-name: Dependabot security and patch auto-merge
-on: pull_request
+name: Dependabot auto-merge
+on: pull_request_target
 permissions:
   contents: write
   pull-requests: write
 jobs:
-  auto-merge:
-    if: github.actor == 'dependabot[bot]'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Read Dependabot update details
-        id: metadata
-        uses: dependabot/fetch-metadata@08eff52bf64351f401fb50d4972fa95b9f2c2d1b
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Enable auto-merge for security and patch updates
-        if: steps.metadata.outputs.alert-state == 'open' || steps.metadata.outputs.update-type == 'version-update:semver-patch'
-        run: gh pr merge --auto --squash "$PR_URL"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          PR_URL: ${{ github.event.pull_request.html_url }}
+  dependabot-auto-merge:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    uses: inhaus-ai-limited/.github/.github/workflows/dependabot-automerge.yml@main
