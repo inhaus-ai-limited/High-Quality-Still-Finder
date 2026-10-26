@@ -32,7 +32,7 @@
     "csv-parser": "^3.0.0",
     "electron": "^33.0.1",
     "electron-builder": "^25.1.8",
-    "eslint": "^8.57.1",
+    "eslint": "^10.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "nuxt": "^3.13.2",
