@@ -41,7 +41,7 @@
     "sass": "^1.80.3",
     "sass-loader": "^16.0.2",
     "stylelint": "16.10.0",
-    "tsc-watch": "^6.2.0",
+    "tsc-watch": "^7.2.1",
     "typescript": "^5.6.3",
     "wait-on": "^9.5.1"
   },
