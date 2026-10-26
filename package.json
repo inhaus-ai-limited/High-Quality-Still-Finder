@@ -19,7 +19,7 @@
   "devDependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@json2csv/plainjs": "^7.0.6",
-    "@nuxt/image": "^1.8.1",
+    "@nuxt/image": "^2.2.0",
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/i18n": "^8.5.5",
